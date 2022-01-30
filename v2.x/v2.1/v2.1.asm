@@ -4,6 +4,7 @@ MOV DS,AX
 MOV ES,AX
 ;B G
 CALL SHOW
+JMP $
 ;D SHOW
 SHOW:
 ;///
