@@ -27,6 +27,6 @@ MOV DL,0
 INT 10H
 RET
 ;D MESSAGE
-MESSAGE:DB "Hello, welcome to JFA OS."
+MESSAGE:DB "Hello, welcome to JFA OS v2.1."
 TIMES 510-($-$$) DB 0
 DW 0XAA55
